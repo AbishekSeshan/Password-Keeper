@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+   <head> Welcome!! </head>
+   <body>
+      <table border = 1>
+         {% for key, value in info.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+   </body>
+</html>
